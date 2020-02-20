@@ -1,0 +1,35 @@
+.videoListWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.listWrapper {
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: #ffffff52;
+  transition: all 1s;
+  width: 200px;
+  color: rgb(5, 4, 66);
+  text-align: center;
+  padding: 4px;
+}
+.listWrapper:hover {
+  background-color: rgba(250, 226, 8, 0.932);
+}
+
+.thumbnail {
+  width: 100%;
+}
+.listWrapper p {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 15px;
+  height: 50px;
+}
+.highLighter {
+  background-color: rgba(250, 226, 8, 0.932);
+  color: rgb(5, 4, 66);
+  transform: scale(1.05, 1.05);
+}
