@@ -1,0 +1,78 @@
+
+#videoPlayer {
+  width: 60%;
+}
+.videoPlayerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.videoPlayer {
+  width: 90%;
+  margin: 0px auto;
+}
+.likeAndBookmark {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.viewport {
+  background-color: #fff;
+  width: 100px;
+  padding: 5px;
+  margin-left: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #07183c;
+}
+
+.likeBookmark {
+  background-color: #fff;
+  width: 50px;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.descriptionWrapper {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 80%;
+  text-align: justify;
+}
+
+.videoListWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.like {
+  margin: 0 5px;
+  color:  rgb(250, 226, 8);
+  text-shadow: 1px 1px 5px #07183c;
+  cursor: pointer;
+}
+.like:hover {
+  transform: scale(1.1, 1.1);
+  color: rgba(255, 238, 0, 0.815);
+}
+.disLike {
+  color: rgb(99, 98, 98);
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.disLike:hover {
+  transform: scale(1.1, 1.1);
+}
